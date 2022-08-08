@@ -1,0 +1,42 @@
+
+INTRODUCTION À SPARK
+
+Spark est un framework open source de calcul distribué. Il s'agit d'un ensemble d'outils et de composants logiciels structurés selon une architecture définie. Développé à l'université de Californie à Berkeley par AMPLab3, Spark est aujourd'hui un projet de la fondation Apache.
+Apache Spark est un moteur d’analyse unifié et ultra-rapide pour le traitement de données à grande échelle. Il permet d’effectuer des analyses de grande ampleur par le biais de machines de Clusters. Il est essentiellement dédié au Big Data et Machine Learning.
+
+Origine
+Tout  commence en 2009. Spark fut conçu par Matei Zaharia, un informaticien canadien, lors de son doctorat au sein de l’université de californie à Berkeley. Initialement, son développement est une solution pour accélérer le traitement des systemes Hadoop
+En 2014, Spark établit officiellement un nouveau record dans le tri à grande échelle. Il remporte le concours Daytona Grey Sort en triant 100 To de données en 23 minutes seulement. Le précédent record 	du monde était de 72 minutes établie par Yahoo à l’aide d’un cluster Hadoop MapReduce de 2100 nœuds tandis que Spark utilise uniquement 206 nœuds. Cela signifie qu’il a trié les memes données trois fois plus rapidement en utilisant dix fois moins de machines.
+De plus, bien qu’il n’existe pas de compétition officielle de tri de pétaoctets, Spark va encore plus loin en triant 1 Po de données, ce qui équivaut à 10 000 milliards d’enregistrements, sur 190 machines  en moins de 4heures.
+
+Il s’agit de l’un des premiers tri à l’échelle du pétaoctet jamais effectué dans un cloud public. L’obtention de cette référence marque une étape importante pour le projet spark. Cela prouve que Spark tient sa promesse de servir de moteur plus rapide et plus évolutif pour le traitement de données de toutes tailles, des Go aux To aux PB
+
+Quels sont les avantages de Spark ?
+Le principal avantage de Spark est sa rapidité.  Spark à était conçue de bout en bout dans une optique de performance. Il utilise pour cela, le calcul en mémoire et d’autres optimisations.
+Aujourd’hui il s’évalue cent fois plus rapide que Hadoop pour le traitement de données. Il utilise également moins de ressources que Hadoop et propose un modèle de programmation plus simple.
+Les développeurs mettent essentiellement en avant la rapidité du produit en termes d’exécution des taches par rapport à MapReduce.
+Spark est aussi connu pour sa simplicité d’utilisation et ses analyses sophistiquées. En effet, Il possède des APIs simples d’usage afin de travailler sur des grands ensembles de données.
+De plus, Spark présente une certaine polyvalence. Il possède un logiciel de traitement de données en flux, un système de traitement par graphes. Il permet aussi de développer des applications en Java, Scala, Python et R de manière simplifiée ainsi que d’effectuer des requetes SQL.
+Le moteur d’analyse regroupe une grande quantité de bibliothèques de haut niveau prenant en charge les requetes SQL, les données  en flux, le machine learning et le traitement de graphes. Ces bibliothèques standards permettent aux développeurs de gagner en productivité. Elles peuvent facilement se combiner  dans la meme application dans le but de créer des flux de travail complexes.
+Enfin, Spark atteint des performances importantes pour les données par lot et en streaming grace à un planificateur DAG, d’un optimiseur  de requetes et d’un moteur d’exécution physique.
+
+
+Les différences entre Spark et MapReduce
+MapReduce est un modèle de programmation lancé par Google. MapReduce permet de manipulation de grande quantité de donnés. Pour les traiter, il les distribue dans un cluster de machine.
+	MapReduce connaît un succès important auprès de sociétés possédant de grands centres de
+	traitement de données comme Amazone ou Facebook. Divers frameworks ont vu le jour afin
+	de l’implementer. Le plus connu est Hadoop développé par Apache Software Foundation.
+
+Par ailleurs, avec MapReduce, la spécification de l’itération reste à la charge du programmeur. Des processus proposes à la gestion de la reprise sur panne entrainent des performances médiocres. Spark emploi des methodes très différentes. Elle consiste à placer les jeux de données en mémoire RAM et à éviter la pénalité des écritures sur le disques. Ainsi  Spark prend en charge le traitement In-memory ce qui permt d’augmenter les perfomances des applications analytiques du Big Data et de gagner en rapidité. Il existe la totalité des opérations d’analyses des données  en mémoire en temps réel et ne s’appuie sur des disques uniquement lorsque la mémoire n’est pas suffisante. A contrario, Hadoop écrit directement sur des disques après chacune des opérations et fonctionne par étape.
+
+
+Qui utilise Spark ?
+Depuis sa sortie, le moteur d’analyse unifiées a connu une 	adoption rapide par les entreprises de différents secteurs. Des pilliers du monde de l’internet tels que Netflix, Yahoo, et ebay ont développé spark à très grande échelle.
+Actuellement, Spark compte plus de 1200 contributeurs comme Intel, Facebook, IBM … et 	est désormais la communauté la plus importante du monde du Big Data
+Il permet d’unifier toutes les applications de spark Big Data. Spark est également  adapté pour les campagnes de marketing en temps réel, les recommandations de produits en ligne ou encore la cybersécurité.
+
+Quels sont les différents outils de Spark ?
+Spark SQL permet d’exécuter des requetes en langages SQL afin de changer et transformer des données.
+Spark Streaming offre à son utilisateur un traitement de données en flux. IL utilise les données en temps réel
+Spark graphX traite des informations issues des graphes.
+Spark Mllib est une bibliothèques d’apprentissage automatique contenant tous les algorithmes et utilitaires d’apprentissage classiques tels que la classification, la régression, le clustering, le filtrage de collaboratif et la réduction de dimension.
