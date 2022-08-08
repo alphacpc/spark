@@ -1,4 +1,5 @@
-# **Premier pas avec** *Spark*<
+# **Premier pas avec**
+![logo spark](./src/images/spark.png)
 <p>Dans ce repositorie, nous ferons un peu le tour de **SPARK**. En gros on partira du B.A.B 
 avec *scala* jusqu'au traitement de données en passant par la manupilation
 de divers fichiers (CSV, JSON), aux base de données (Relationnel et NoSQL).</p> 
