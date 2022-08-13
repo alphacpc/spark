@@ -39,7 +39,7 @@ object Maps {
     println(f"Conversion des clés en une Liste => ${weekDayKeys1}")
     println(f"Les element weekDayKeys1 qui soint paires => ${ weekDayKeys2.sorted }")
     weekDayKeys2.foreach(day => println(f"La clef ${day} a pour valeur ${weekDay.getOrElse(day, "None")}"))
-    
+
 
   }
 
