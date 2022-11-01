@@ -1,8 +1,8 @@
-[error] sbt.librarymanagement.ResolveException: Error downloading org.elasticsearch:elasticsearch-spark-20_2.13:8.0.0
+[error] sbt.librarymanagement.ResolveException: Error downloading neo4j-contrib:neo4j-spark-connector:2.4.5-M2
 [error]   Not found
 [error]   Not found
-[error]   not found: /home/alpha/.ivy2/localorg.elasticsearch/elasticsearch-spark-20_2.13/8.0.0/ivys/ivy.xml
-[error]   not found: https://repo1.maven.org/maven2/org/elasticsearch/elasticsearch-spark-20_2.13/8.0.0/elasticsearch-spark-20_2.13-8.0.0.pom
+[error]   not found: /home/alpha/.ivy2/localneo4j-contrib/neo4j-spark-connector/2.4.5-M2/ivys/ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/neo4j-contrib/neo4j-spark-connector/2.4.5-M2/neo4j-spark-connector-2.4.5-M2.pom
 [error] 	at lmcoursier.CoursierDependencyResolution.unresolvedWarningOrThrow(CoursierDependencyResolution.scala:345)
 [error] 	at lmcoursier.CoursierDependencyResolution.$anonfun$update$38(CoursierDependencyResolution.scala:314)
 [error] 	at scala.util.Either$LeftProjection.map(Either.scala:573)
@@ -33,8 +33,8 @@
 [error] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
 [error] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 [error] 	at java.base/java.lang.Thread.run(Thread.java:829)
-[error] (ssExtractDependencies) sbt.librarymanagement.ResolveException: Error downloading org.elasticsearch:elasticsearch-spark-20_2.13:8.0.0
+[error] (ssExtractDependencies) sbt.librarymanagement.ResolveException: Error downloading neo4j-contrib:neo4j-spark-connector:2.4.5-M2
 [error]   Not found
 [error]   Not found
-[error]   not found: /home/alpha/.ivy2/localorg.elasticsearch/elasticsearch-spark-20_2.13/8.0.0/ivys/ivy.xml
-[error]   not found: https://repo1.maven.org/maven2/org/elasticsearch/elasticsearch-spark-20_2.13/8.0.0/elasticsearch-spark-20_2.13-8.0.0.pom
+[error]   not found: /home/alpha/.ivy2/localneo4j-contrib/neo4j-spark-connector/2.4.5-M2/ivys/ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/neo4j-contrib/neo4j-spark-connector/2.4.5-M2/neo4j-spark-connector-2.4.5-M2.pom
